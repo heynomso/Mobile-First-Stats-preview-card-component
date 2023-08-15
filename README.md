@@ -17,7 +17,6 @@ Users should be able to:
 
 ### Screenshot
 
-- Mobile phone view: ![!\[\](output/Mobile%20phone%20view.png.jpg)](<output/Desktop view.png>)
 - Desktop view: ![Alt text](<output/Desktop view.png>)
 
 ### Links
