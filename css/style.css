@@ -1,0 +1,105 @@
+body {
+  font-family: "Inter", "Lexend Deca";
+  background-color: hsl(233, 47%, 7%);
+  color: white;
+  padding-top: 80px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 10px 10px 10px 10px;
+}
+
+.hero-img img {
+  width: 100%;
+  outline: 100vmax solid hsla(277, 64%, 61%, 0.7);
+  outline-offset: -100vmax;
+  border-radius: 10px 10px 0 0;
+  -webkit-mask: linear-gradient(#000 0 0);
+}
+
+.insight {
+  text-align: center;
+  font-size: 15px;
+  color: hsl(0, 0%, 100%);
+}
+.insight span {
+  color: hsl(277, 64%, 61%);
+}
+
+.explain {
+  padding-top: 2.5px;
+  line-height: 190%;
+  text-align: center;
+  font-size: 16px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.stats {
+  text-align: center;
+}
+.stats .company {
+  padding-top: 20px;
+  line-height: 0.5;
+}
+.stats .company p {
+  font-size: 15px;
+}
+.stats .template {
+  padding-top: 20px;
+  line-height: 0.5;
+}
+.stats .template p {
+  font-size: 15px;
+}
+.stats .query {
+  padding-top: 20px;
+  line-height: 0.5;
+}
+.stats .query p {
+  font-size: 15px;
+}
+
+.attribution {
+  padding-top: 70px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(277, 64%, 61%);
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    font-family: "Inter", "Lexend Deca";
+    background-color: hsl(233, 47%, 7%);
+    color: white;
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+  .container {
+    flex-direction: row-reverse;
+  }
+  .container .hero-img,
+  .container .text-box {
+    width: 50%;
+  }
+  .container .hero-img img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px 10px 10px 0;
+  }
+  .container .text-box {
+    padding: 15px;
+  }
+  .container .text-box .stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+}/*# sourceMappingURL=style.css.map */
