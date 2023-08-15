@@ -22,6 +22,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://heynomso.github.io/Mobile-First-Stats-preview-card-component/
+- Repository URL: https://github.com/heynomso/Mobile-First-Stats-preview-card-component.git 
 
 ### Built with
 
